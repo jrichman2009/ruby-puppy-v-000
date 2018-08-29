@@ -13,7 +13,7 @@ class Dog
     names = []
     @@all.each do |dog|
       names << dog.name
-  
+    end
   end
 
   def self.clear_all
