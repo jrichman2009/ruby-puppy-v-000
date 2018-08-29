@@ -12,7 +12,7 @@ class Dog
   def self.all
     names = []
     @@all.each do |dog|
-      names << dog.name
+      puts dog.name
     end
   end
 
